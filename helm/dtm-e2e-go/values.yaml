@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: dtme2etest/dtm-e2e-go
+  tag: 0.0.1
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 8080
